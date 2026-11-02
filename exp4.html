@@ -15,16 +15,17 @@
         <input type = "text" id = "fullname" name = "fullname" required>
         <br><br>
 
-        <!-- EMAIL -->
+        <!-- EMAIL --><fieldset>
+        <legend><b>Contact Information</b></legend>
         <label for = "email">Email:</label>
         <input type = "email" id = "email" name = "email" required>
-        <br><br>
-
+        <br><br>         
         <!-- PHONE -->
         <label for = "phone">Phone:</label>
         <input type = "tel" id = "phone" name = "phone" required>
         <br><br>
-
+        </fieldset>  
+                
         <!-- CHECK-IN DATE -->
         <label for = "checkin">Check-in Date:</label>
         <input type = "date" id = "checkin" name = "checkin" required>
@@ -49,12 +50,13 @@
         <input type = "number" id = "guests" name = "guests" min="1" max="10" required>
         <br><br>
 
-        <!-- SPECIAL REQUESTS -->
+        <!-- SPECIAL REQUESTS --><fieldset>
+       <legend><b>Additional Request</b></legend>
         <label for = "requests">Special Requests:</label>
         <br>
         <textarea id = "requests" name = "requests"></textarea>
         <br><br>
-
+        </fieldset>
         <!-- SUBMIT BUTTON -->
         <input type="submit" value="Book Now">
         <!-- RESET FORM -->
