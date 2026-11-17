@@ -2,13 +2,47 @@
 <html>
 <head>
  <title>Navigation Menu</title>
+ <style>
+ ul {
+ list-style-type: none;
+ margin: 0;
+ padding: 0;
+ background-color: #333333;
+ overflow: hidden;
+ }
+ li {
+ float: left;
+ }
+ li a {
+ display: block;
+ color: white;
+ text-align: center;
+ padding: 14px 20px;
+ text-decoration: none;
+ }
+ li a:hover {
+ background-color: #555555;
+ }
+ h1 {
+ text-align: center;
+ }
+ </style>
 </head>
 <body>
  <h1>My Website</h1>
  <ul>
  <li><a href="#home">Home</a></li>
  <li><a href="#about">About</a></li>
+ <li><a href="#services">Services</a></li>
  <li><a href="#contact">Contact</a></li>
  </ul>
+ <h2 id="home">Home</h2>
+ <p>Welcome to my website.</p>
+ <h2 id="about">About</h2>
+ <p>This website is created using HTML and CSS.</p>
+ <h2 id="services">Services</h2>
+ <p>We provide information about web designing.</p>
+ <h2 id="contact">Contact</h2>
+ <p>Email: student@example.com</p>
 </body>
 </html>
