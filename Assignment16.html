@@ -1,16 +1,27 @@
 <!DOCTYPE html>
 <html>
 <head>
- <title>Student Feedback Form</title>
+ <title>Select, Textarea and Buttons</title>
 </head>
 <body>
  <h1>Student Feedback Form</h1>
  <form>
  <label for="course">Select Course:</label>
  <select id="course" name="course">
+ <option value="">Choose a course</option>
  <option value="html">HTML</option>
  <option value="css">CSS</option>
+ <option value="javascript">JavaScript</option>
  </select>
+ <br><br>
+ <label for="feedback">Your Feedback:</label>
+ <br>
+ <textarea id="feedback" name="feedback"
+ rows="5" cols="35"></textarea>
+ <br><br>
+ <button type="submit">Submit</button>
+ <button type="reset">Reset</button>
+ <button type="button" onclick="alert('Hello!')">Click Me</button>
  </form>
 </body>
 </html>
